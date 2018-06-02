@@ -1,0 +1,186 @@
+.section1{
+	height: 75vh;
+}
+.logo{
+	width: 11%;
+	height: 10%;
+}
+
+.header-li{
+	list-style: none;
+	font-size: 0.5rem;
+	font-weight: 500;
+	text-align: right;
+	color: #65686d;
+}
+.empty{
+	height: 10vh;
+}
+.uvas1,.uvas2{
+	line-height: 80%;
+	font-size: 2.5rem;
+	display:block;
+	position:relative;
+	width:100%;
+	font-weight:400;
+	opacity:0;
+	letter-spacing: -1px;
+	-webkit-animation: KEYFRAME-NAME 2s 3s forwards;
+	-moz-animation:    KEYFRAME-NAME 2s 3s forwards;
+	-o-animation:      KEYFRAME-NAME 2s 3s forwards;
+	animation:         KEYFRAME-NAME 2s 3s forwards;
+}
+.uvas3{
+	font-size: 3rem;
+	position:relative;
+	display:block;
+	width:100%;
+	font-weight:400;
+	opacity:1;
+	top:-60px;
+	-webkit-animation: hideYour 2s 1s forwards;
+	-moz-animation:    hideYour 2s 1s forwards;
+	-o-animation:      hideYour 2s 1s forwards;
+	animation:         hideYour 2s 1s forwards;
+}
+
+@-webkit-keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes hideYour {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes hideYour {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes hideYour {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes hideYour {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+.pen{
+	width: 50%;
+	margin-top: -3.5rem;
+}
+.section2{
+	height: 70vh;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.section3{
+	height: auto;
+}
+.offer{
+	font-weight: 500;
+}
+.offer:after{
+	background-image: url(http://brandstudio.brandstudio.kz/img/line.jpg);
+}
+.icons{
+	width: 15%;
+}
+.section3-text{
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+.list{
+	list-style-image: url('http://brandstudio.brandstudio.kz/img/checked.png');
+	font-size: 0.9rem;
+}
+.animation{
+    position: relative;
+	opacity: 1;
+}
+
+.section4{
+	height: 33vh;
+	background-color: #edeeef;
+}
+.process{
+	position:relative;
+}
+.process-bottom {
+	animation: qwerty 3s infinite;
+	position:absolute;
+    width: 0;
+    height: 90px;
+    margin-left: 11.5rem;
+    background: url(http://brandstudio.brandstudio.kz/img/proces-active.png);
+	}
+@keyframes qwerty {
+    to {width: 65%; } }
+.process-top{
+	position:absolute;
+    width: 65%;
+    height: 90px;
+    margin-left: 11.5rem;
+    background: url(http://brandstudio.brandstudio.kz/img/proces.png);
+}
+.section5{
+	height: auto;
+	margin-bottom: 7rem;
+}
+.contact-icons{
+	width: 2rem;
+	height: 2rem;
+}
+.contact p{
+	font-size: 0.8rem;
+}
+ #map {
+     width: 100%; 
+     height: 15rem;
+}
+.footer{
+	height: 7vh;
+	background-color: #5d80ba;
+	color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+	.section2{
+		width: 100% !important;
+		height: auto !important;
+	}
+	.process-bottom {
+	animation: qwerty 3s infinite;
+	position:absolute;
+    width: 0;
+    height: 4rem !important;
+    margin-left: 0 !important;
+    background: url(http://brandstudio.brandstudio.kz/img/proces-active.png);
+	}
+@keyframes qwerty {
+    to {width: 90%; } }
+.process-top{
+	position:absolute;
+    width: 90% !important;
+    height: 5.7rem !important;
+    margin-left: 0 !important;
+    background: url(http://brandstudio.brandstudio.kz/img/proces.png);
+}
+
+}
+
+
+
